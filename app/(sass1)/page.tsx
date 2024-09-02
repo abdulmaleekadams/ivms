@@ -1,4 +1,5 @@
 import Banner from "@/components/sass1/Banner";
+import FAQs from "@/components/sass1/FAQs";
 import Features from "@/components/sass1/Features";
 import Hero from "@/components/sass1/Hero";
 import LogoTicker from "@/components/sass1/LogoTicker";
@@ -14,6 +15,7 @@ const page = () => {
       <LogoTicker />
       <Features />
       <ProductShowcase />
+      <FAQs />
     </div>
   );
 };
