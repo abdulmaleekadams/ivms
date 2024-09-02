@@ -1,5 +1,6 @@
 import Banner from "@/components/sass1/Banner";
 import Hero from "@/components/sass1/Hero";
+import LogoTicker from "@/components/sass1/LogoTicker";
 import Navbar from "@/components/sass1/Navbar";
 
 const page = () => {
@@ -8,6 +9,7 @@ const page = () => {
       <Banner />
       <Navbar />
       <Hero />
+      <LogoTicker />
     </div>
   );
 };
