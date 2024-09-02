@@ -1,4 +1,5 @@
 import Banner from "@/components/sass1/Banner";
+import Features from "@/components/sass1/Features";
 import Hero from "@/components/sass1/Hero";
 import LogoTicker from "@/components/sass1/LogoTicker";
 import Navbar from "@/components/sass1/Navbar";
@@ -10,6 +11,7 @@ const page = () => {
       <Navbar />
       <Hero />
       <LogoTicker />
+      <Features />
     </div>
   );
 };
