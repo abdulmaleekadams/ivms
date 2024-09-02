@@ -3,6 +3,7 @@ import Features from "@/components/sass1/Features";
 import Hero from "@/components/sass1/Hero";
 import LogoTicker from "@/components/sass1/LogoTicker";
 import Navbar from "@/components/sass1/Navbar";
+import ProductShowcase from "@/components/sass1/ProductShowcase";
 
 const page = () => {
   return (
@@ -12,6 +13,7 @@ const page = () => {
       <Hero />
       <LogoTicker />
       <Features />
+      <ProductShowcase />
     </div>
   );
 };
